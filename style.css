@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #B39CD0;
+}
+.container{
+    background-color: #FBEAFF;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 60vh;
+    box-shadow: 10px 10px 10px rgb(93, 93, 93);
+}
+.container:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+.container>h2{
+    text-align: center;
+    font-family: math;
+}
+form{
+    margin: 2rem 0;
+}
+input,select,button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.8rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+input{
+    border: 1px solid rgb(216, 211, 211);
+    font-size:1rem ;
+    height: 2rem;
+    padding-left: .5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+
+    align-self: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    
+}
+.select-container{
+    display: flex;
+    width: 6rem;
+    
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.select-container img{
+    max-width: 3rem;
+}
+.msg{
+    margin: 2rem 0;
+}
+form button{
+    height: 3rem;
+    background-color: #845EC2;
+    color: azure;
+    font-size: 1.15rem;
+    cursor:pointer;
+    margin-top: rem;
+}
+.conversion_rate , .output{
+    height: 2rem;
+    width: 100%;
+    
+    font-size: 1.1rem;
+    font-weight: 500;
+  
+    border-radius: 5px;
+}
+.output{font-size: 1.5rem;}
+.output_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border:1px solid rgb(204, 201, 201);
+    margin: 1rem 0;
+    background-color:white;
+    border-radius: 5px;
+}
